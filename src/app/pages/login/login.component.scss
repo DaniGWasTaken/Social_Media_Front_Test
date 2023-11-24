@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(49, 42, 67);
+}
+
+/*------------ Login container ------------*/
+
+.box-area {
+  width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+#formCheck:checked {
+  background-color: rgb(104, 60, 142);
+}
+
+h2 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(104, 60, 142);
+  color: white;
+}
+
+.btn:hover {
+  background-color: purple;
+  color: white;
+}
+
+a {
+  color: rgb(104, 60, 142)
+}
+
+a:hover {
+  color: purple;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.rounded-5 {
+  border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+
+  .box-area {
+    margin: 0 10px;
+
+  }
+
+  .left-box {
+    height: 90%;
+    overflow: hidden;
+  }
+
+  .right-box {
+    padding: 20px;
+  }
+
+}
