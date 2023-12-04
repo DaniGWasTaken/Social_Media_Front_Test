@@ -1,0 +1,43 @@
+<!----------------------- Main Container -------------------------->
+<body>
+
+
+  <div class=" container d-flex justify-content-center align-items-center min-vh-100">
+    <!----------------------- Login Container -------------------------->
+    <div class="row border rounded-5 p-3 bg-white shadow box-area">
+      <!--------------------------- Left Box ----------------------------->
+      <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
+        style="background: black;">
+        <div class="featured-image mb-3">
+          <img src="https://i.ibb.co/M5qhzyB/logo-1.jpg" class="img-fluid" style="width: 15rem;">
+        </div>
+        <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 100; text-align: center;">Discover - Connect Vibely
+        </p>
+      </div>
+      <!-------------------- ------ Right Box ---------------------------->
+
+      <div class="col-md-6 right-box">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <h2>Reset Password</h2>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
+          </div>
+          <div class="input-group mb-3">
+            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+          </div>
+          <div class="input-group mb-3">
+            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Repeat Password">
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-lg w-100 fs-6">Reset</button>
+          </div>
+          <div class="row">
+            <small>Return to  <a routerLinkActive="active" [routerLink]="'/register'">Log in</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
