@@ -1,8 +1,6 @@
 <!----------------------- Main Container -------------------------->
 <body>
-
-
-  <div class=" container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <!----------------------- Login Container -------------------------->
     <div class="row border rounded-5 p-3 bg-white shadow box-area">
       <!--------------------------- Left Box ----------------------------->
@@ -14,7 +12,25 @@
         <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 100; text-align: center;">Discover - Connect Vibely
         </p>
       </div>
-      <app-register-form></app-register-form>
-    </div>
       <!-------------------- ------ Right Box ---------------------------->
 
+     < <div class="col-md-6 right-box">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <h2>Can't log in?</h2>
+          </div>
+          <div class="input-group mb-3 text-center">
+            <p>We'll send a recovery link to</p>
+            <input type="text" class="form-control form-control-lg bg-light fs-6 mt-2 text-center" placeholder="Email address">
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-lg w-100 fs-6">Reset</button>
+          </div>
+          <div class="row">
+            <small>Return to <a routerLinkActive="active" [routerLink]="'/login'">Log in</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>>

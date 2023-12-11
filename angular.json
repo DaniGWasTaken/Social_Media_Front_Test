@@ -64,11 +64,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": {
-              "browserTarget": "Social_Media_Front_Test:build:production"
-            },
             "development": {
-              "browserTarget": "Social_Media_Front_Test:build:development"
+              "browserTarget": "Social_Media_Front_Test:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
